@@ -27,7 +27,7 @@ depending upon the python version. Make sure that you are running the command fr
 Now you are all set to explore the Metric Converter. Happy Hacking!!!!!!
 
 
-## Reporting Bugs
+## Reporting Bugs  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 Feel free to report any buys or issues at the below github profile.
 
 Check out my Github profile [a-k-r-a-k-r](https://github.com/a-k-r-a-k-r)
