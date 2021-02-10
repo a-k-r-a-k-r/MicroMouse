@@ -4,8 +4,6 @@ MicroMouse Game (PathFinding Game)
 ## Introduction
 This project is about creating a MicroMouse Game with simple to use GUI.
 
-## Video
-https://drive.google.com/file/d/1aI0WEkwxIdCPi7pKr5IukfNpJ6gDtTgy/view?usp=sharing
 
 ## Getting started
 In order to run this script, you need to have Python and pip installed on your system. After you're done installing Python and pip, run the following command from your terminal to install the requirements from the same folder (directory) of the project.
@@ -26,7 +24,9 @@ depending upon the python version. Make sure that you are running the command fr
 
 ![Demo pic of MicroMouse Game by akr](resources/images/akr.jpg)
 
+Now you are all set to explore the Metric Converter. Happy Hacking!!!!!!
 
 
-### Standalone Executable (ONLY for windows users)
-<a href="https://drive.google.com/drive/folders/1NW1BxdMUNbE-jI28QPzg1sI3Wcufa84m?usp=sharing">Get executable</a>
+## Reporting Bugs
+Feel free to report any buys or issues at the below github profile.
+Check out my Github profile [a-k-r-a-k-r](https://github.com/a-k-r-a-k-r)
