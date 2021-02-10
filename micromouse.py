@@ -1,6 +1,6 @@
 '''
     Program: MicroMouse
-    Author : Abhiraj K R
+    Author : akr
     
 '''
 
