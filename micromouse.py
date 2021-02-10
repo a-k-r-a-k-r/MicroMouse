@@ -1,3 +1,10 @@
+'''
+    Program: MicroMouse
+    Author : Abhiraj K R
+    
+'''
+
+
 #import requirements
 import time
 import math
@@ -65,7 +72,7 @@ class MicroMouse(Frame):
         self.my_menu.add_cascade(label='About', menu=self.about_window)
         self.about_window.add_command(label='About', command=self.get_about)
 
-        
+
         #Grid frame
         self.main_frame = Frame(self, bg='black', padx=5, pady=5)
         self.main_frame.grid(row=0)
@@ -100,6 +107,7 @@ class MicroMouse(Frame):
         speed_title.grid(row=2, column=1)
         my_title = Label(self.bottom_frame, text="-akr", bg=button_frame_bg, fg="#151515")
         my_title.grid(row=2, column=3, padx=0, pady=0, sticky="e")
+        messagebox.showinfo("Info","My application will be considering the diagonal boxes also as possible path")
 
         
 
@@ -119,7 +127,7 @@ class MicroMouse(Frame):
         text_file.write(data)
         text_file.close()
         user_grid.destroy()
-        messagebox.showerror("Configuration Guide","Inorder to see your changes, you will have to close the application and open again")
+        messagebox.showinfo("Configuration Guide","Inorder to see your changes, you will have to close the application and open again")
 
 
     def change_color(self):
@@ -128,7 +136,7 @@ class MicroMouse(Frame):
         color_file.write(color)
         color_file.close()
         color_grid.destroy()
-        messagebox.showerror("Configuration Guide","Inorder to see your changes, you will have to close the application and open again")
+        messagebox.showinfo("Configuration Guide","Inorder to see your changes, you will have to close the application and open again")
 
 
     def get_color(self):
@@ -143,7 +151,7 @@ class MicroMouse(Frame):
         row_label = tkinter.Label(color_grid, text="Color: ")
         default_text = tkinter.StringVar()
         get_color = tkinter.Entry(color_grid, textvariable=default_text)
-        default_text.set("#c66e09")
+        default_text.set("blue")
         row_label.grid(row=1, column=0)
         get_color.grid(row=1, column=1)
         get_button = tkinter.Button(color_grid, text="Set", bg=start_button_color, command=self.change_color)
@@ -192,19 +200,6 @@ class MicroMouse(Frame):
         step4_des.grid(row=3,column=1,padx=10,ipadx=10,pady=(10,0),sticky="we")
         ok_button=Button(user_guide,bg=start_button_color,text="OK",command=user_guide.destroy)
         ok_button.grid(row=4,column=0,columnspan=2,padx=10,ipadx=20,pady=10)
-        '''more_button=Button(user_guide,bg=start_button_color,text="More",command=self.more_guide)
-        more_button.grid(row=4,column=0,columnspan=2,padx=10,ipadx=20,pady=10)
-        imagejj=Image.open("resources/icons/arrow.ico")
-        self.tkimg=ImageTk.PhotoImage(imagejj)
-        img=Label(user_guide,image=self.tkimg,width=16,height=16)
-        img.pack()'''
-        
-
-    '''def more_guide(self):
-        user_guide.destroy()
-        more_guide = tkinter.Toplevel()
-        more_guide.title("Guide")
-        more_guide.geometry('500x250+'+ str(root.winfo_x()+2)+ "+" + str(root.winfo_y()+32))'''
 
 
     def button_click(self, button, i, j):
