@@ -24,7 +24,7 @@ depending upon the python version. Make sure that you are running the command fr
 
 ![Demo pic of MicroMouse Game by akr](resources/images/akr.jpg)
 
-Now you are all set to explore the Metric Converter. Happy Hacking!!!!!!
+Now you are all set to explore the MicroMouse Game. Happy Hacking!!!!!!
 
 
 ## Reporting Bugs  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
