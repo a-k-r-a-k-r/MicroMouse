@@ -243,7 +243,7 @@ class MicroMouse(Frame):
             self.guide_label.config(text='Check whether the "Origin" and "Destination" is selected')
             messagebox.showerror("Not Defined","Destination or Orgin is not defined")
         else:
-            self.guide_label.config(text='Mouse is lookin for the path!!!!')
+            self.guide_label.config(text='Mouse is looking for the path!!!!')
 
             current = self.origin
             self.open.append(current)
